@@ -251,7 +251,15 @@
 			<div class="news-info agileits-w3layouts">
 				<h3>News &amp; Events</h3>
 			</div>
-			<div class="news-grids">
+			<script>
+					if(window.screen.availWidth > 768){
+					document.write('<div class="news-grids img">');
+					}
+					else{
+					document.write('<div class="news-grids">');
+					}
+					</script>	
+			
 				<div class="news-wthreegrid">
 					<div class="news-grid-left col-md-6" >
 						<div class="col-md-3 date">

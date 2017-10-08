@@ -808,7 +808,10 @@ ul#flexiselDemo1 li a h4:hover{
 	margin: 5em 0 0 0;
 	padding-top: 50px;
 	padding-left: 25px;
-    background-image: url(https://www.alphamstudios.com/images/horL.png);
+    
+}
+.img{
+	background-image: url(https://www.alphamstudios.com/images/horL.png);
     background-repeat: repeat-y;
     background-position: center;
 }
