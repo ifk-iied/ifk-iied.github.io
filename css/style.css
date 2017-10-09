@@ -32,7 +32,10 @@ body a:hover{
 /*-- header-top --*/
 .header-top{
 	background: #10c7bf;
-    padding: 1em 0;
+	padding: 1em 0;
+/*-- 	position: fixed;
+	width: 100%;
+	z-index: 999; --*/
 }
 .social{
 	float:left;
