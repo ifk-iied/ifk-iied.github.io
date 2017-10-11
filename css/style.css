@@ -732,6 +732,13 @@ ul.social-slide li i.mac{
     line-height: 2em;
 }
 /*-- slider --*/
+.slider {
+	margin: 0;
+	}
+@media(min-width:768px)
+{
+	height: 400px;
+}	
 #flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
 	display: none;
 }
@@ -826,7 +833,7 @@ ul#flexiselDemo1 li a h4:hover{
 }
 @media(max-width:768px){
 	.news-grid-left{
-		border-bottom: ridge 1px #DCDCDC;
+		border-bottom: ridge 1px #140202;
 	
 	}
 }
