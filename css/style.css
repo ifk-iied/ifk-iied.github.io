@@ -720,10 +720,18 @@ ul.social-slide li i.mac{
     font-weight: 100;
 }
 .welcome-info h5 {
-    font-size: 1.3em;
-    font-weight: 600;
     color: #020202;
-    margin: 1.5em 0;
+	font-family: 'Segoe UI', sans-serif;
+	font-weight: 300;
+	font-size: 24px;
+	margin: 0 17% 0 17%;
+	border-bottom: 1px solid #999;
+	padding-bottom: 15px;
+}
+@media(min-width:1190px){
+	.welcome-info h5{
+		margin: 0 27% 0 27%;
+	}	
 }
 .welcome-info p {
     color: #777;
@@ -735,7 +743,7 @@ ul.social-slide li i.mac{
 .slider {
 	margin: 0;
 	}
-@media(min-width:768px)
+@media(min-width:1190px)
 {
 	height: 400px;
 }	
@@ -820,10 +828,13 @@ ul#flexiselDemo1 li a h4:hover{
 	padding-left: 0px;
     
 }
-.img{
-	background-image: url(../images/horL.png);
-	background-repeat: repeat-y;
-	background-position: 50% 25%; 
+
+@media(min-width:1190px){
+	.news-grids {
+		    background-image: url(../images/horL1.png);
+			background-repeat: repeat-y;
+			background-position: 50% 0%;
+	}
 }
 
 .news-grid-left{
@@ -831,7 +842,8 @@ ul#flexiselDemo1 li a h4:hover{
 	display: inline-block;
 
 }
-@media(max-width:768px){
+
+@media(max-width:1190px){
 	.news-grid-left{
 		border-bottom: ridge 1px #140202;
 	
@@ -874,7 +886,7 @@ ul#flexiselDemo1 li a h4:hover{
     font-size: .9em;
 	color: #777;
 	width: 100%;
-	height: 145px;
+	height: 142px;
     line-height: 2em;
 }
 .news-agileimg img{
@@ -1555,7 +1567,7 @@ h2.typoh2{
     padding: 8px 9px; 
 }
 }
-@media (max-width:768px){
+@media (max-width:1190px){
 	.grid_5 {
 		padding: 0 0 1em;
 	}
@@ -1917,6 +1929,7 @@ button.btn1.btn-1.btn-1b:hover {
 }
 .single-left-left img{
 	width:100%;
+	height: 400px;
 }
 .left-single{
 	padding-right: 2em;
@@ -2090,7 +2103,7 @@ button.btn1.btn-1.btn-1b:hover {
 		width: 65%;
 	}
 }
-@media (max-width:991px){
+@media (max-width:1190px){
 	.top-nav {
 		width: 75%;
 	}
@@ -2223,7 +2236,7 @@ button.btn1.btn-1.btn-1b:hover {
 		margin: 0 0.1em;
 	}
 }
-@media (max-width:768px){
+@media (max-width:1190px){
 	.top-nav {
 		width: 96%;
 	}
@@ -2530,6 +2543,8 @@ button.btn1.btn-1.btn-1b:hover {
 	}
 	.blog-top-left-grid,.blog-top-right-grid {
 		padding: 0;
+		margin-right:auto;
+		margin-left:auto; 
 	}
 	.w3response {
 		margin: 2em 0;
