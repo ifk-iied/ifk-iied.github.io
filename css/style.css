@@ -1067,17 +1067,18 @@ ul#flexiselDemo1 li a h4:hover{
 	text-align:left;
 }
 .about-w3grid h5{
-	color: #000;
+	color:#10c7bf;
     margin: 0 0 1em;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 600;
     line-height: 1.8em;
 }
 .about-w3grid p{
 	color: #777;
-    font-size: .9em;
+    font-size: 1.5em;
     margin: 0;
-    line-height: 1.8em;
+	line-height: 1.5em;
+	text-align: justify;
 }
 /*-- about-team --*/
 .about-team {
@@ -1117,23 +1118,27 @@ ul#flexiselDemo1 li a h4:hover{
 }
 /*-- choose --*/
 .choose {
-    padding: 4em 0 0 0;
+	padding: 4em 0 0 0;
+	text-align: left;
 }
 .choose-w3layoutsinfo {
     margin: 4em 0 0;
 }
 .choose-grid h5{
-    color: #000000;
-    font-size: 1.1em;
+    color: #10c7bf;
+    font-size: 2em;
     font-weight: 600;
     line-height: 1.5em;
     margin: 0;
 }
 .choose-grid  p{
     color: #777;
-    font-size: .9em;
+	font-size: .9em;
     margin: 1.2em 0;
     line-height: 1.8em;
+}
+.choose-grid ul {
+    text-align: left;
 }
 .choose-button{
 	margin:2em 0 0 0;
