@@ -411,7 +411,7 @@ input:focus {
 /*--//Login --*/
 /*-- banner --*/
 .banner{
-    background: url(https://bookstack.me/assets/img/bg2.jpeg) no-repeat center bottom; /*-- Image 1 --*/
+    background: url(../images/bg1.jpg) no-repeat center bottom; /*-- Image 1 --*/
     background-size: cover;
 }
 .banner-w3text{
@@ -912,7 +912,7 @@ ul#flexiselDemo1 li a h4:hover{
 }
 /*-- news-bottom --*/
 .news-bottom{
-    background: url(https://cdn.pixabay.com/photo/2013/08/20/15/47/sunset-174276_960_720.jpg) no-repeat center fixed;/*-- Image 2 --*/
+    background: url(../images/bg2.jpg) no-repeat center fixed;/*-- Image 2 --*/
     padding: 0em 0;
     background-size: cover;
 }
