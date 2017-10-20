@@ -132,16 +132,39 @@
 				Information goes here designed by AMS. Information goes here designed by AMS. Information goes here designed by AMS. 
 				Information goes here designed by AMS. Information goes here designed by AMS. Information goes here designed by AMS. </p>
 			</div>	
-			<div class="contact-form agileits-w3layouts">
-				<h4>Contact Form</h4>
-				<form action="#" method="post">
-					<input type="text" placeholder="Name" required="">
-					<input type="email" placeholder="Email" required="">
-					<input type="text" placeholder="Telephone" required="">
-					<textarea placeholder="Message" required=""></textarea>
-					<button class="btn1 btn-1 btn-1b w3-agile">Submit</button>
-				</form>
-			</div>	
+			<div id="contact" class="text-center">
+				<div class="container">
+				  <div class="section-title center">
+					<h2>Get In Touch</h2>
+					<hr>
+					<p class="section-tag">Don't hesitate to drop in a quick message!</p>
+				  </div>
+				  <div class="col-md-8 col-md-offset-2">
+					<form name="sentMessage" id="contactForm" novalidate>
+					  <div id="success"></div>
+					  <div class="row">
+						<div class="col-md-6">
+						  <div class="form-group">
+							<input type="text" id="name" class="form-control" placeholder="Name" required="required">
+							<p class="help-block text-danger"></p>
+						  </div>
+						</div>
+						<div class="col-md-6">
+						  <div class="form-group">
+							<input type="email" id="email" class="form-control" placeholder="Email" required="required">
+							<p class="help-block text-danger"></p>
+						  </div>
+						</div>
+					  </div>
+					  <div class="form-group">
+						<textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+						<p class="help-block text-danger"></p>
+					  </div>
+					  <button type="submit" class="btn btn-default btn-lg">Send Message</button>
+					</form>
+				  </div>
+				</div>
+			  </div>
 		</div>
 	</div>
 	<!-- //contact -->
@@ -188,5 +211,7 @@
 		});
 	</script> 
 	<!-- //smooth-scrolling-of-move-up -->
+	
+<script type="text/javascript" src="js/contact_us.js"></script>
 </body>
 </html>

@@ -1094,15 +1094,23 @@ ul#flexiselDemo1 li a h4:hover{
 }
 /*-- about-team --*/
 .about-team {
-    margin: 4em 0 0 0;
+	margin: 4em 0 0 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 .team-wthreegrids {
   margin-top: 3em;
+  width: 100%;
+}
+.team-grid {
+	padding-bottom: 40px;
 }
 .team-grid img {
   width: 100%;
 }
 .team-grid h6 {
+	text-justify: center;
+    text-align: center;
     font-size: 1em;
     color: #10c7bf;
     margin: 1em 0 1em 0;
@@ -1110,13 +1118,15 @@ ul#flexiselDemo1 li a h4:hover{
     font-weight: 600;
 }
 .team-grid p {
+	text-justify: center;
+    text-align: center;
     color: #777;
     font-size: .9em;
     margin: 0;
     line-height: 1.8em;
 }
 .team-w3icons.w3-agileitsicons ul {
-    text-align: left;
+    text-align: center;
     padding: 0;
     margin: 0 0 0.5em 0;
 }
