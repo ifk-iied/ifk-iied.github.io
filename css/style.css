@@ -1105,6 +1105,7 @@ ul#flexiselDemo1 li a h4:hover{
 .team-grid {
 	padding-bottom: 40px;
 }
+
 .team-grid img {
   width: 100%;
 }
@@ -1117,6 +1118,11 @@ ul#flexiselDemo1 li a h4:hover{
     text-transform: capitalize;
     font-weight: 600;
 }
+@media (max-width:384px){
+	.team-grid h6{
+		font-size: .8em;
+	}
+}
 .team-grid p {
 	text-justify: center;
     text-align: center;
@@ -1125,18 +1131,32 @@ ul#flexiselDemo1 li a h4:hover{
     margin: 0;
     line-height: 1.8em;
 }
+@media (max-width:384px){
+	.team-grid p{
+		font-size: .5em;
+	}
+}
 .team-w3icons.w3-agileitsicons ul {
     text-align: center;
     padding: 0;
     margin: 0 0 0.5em 0;
 }
+
 .team-w3icons.w3-agileitsicons ul li a {
     color: #ccc;
     border-color: #ccc;
 }
+
 .team-w3icons.w3-agileitsicons ul li a:hover{
     color: #10c7bf;
     border-color: #10c7bf;
+}
+@media (max-width:384px){
+	.team-w3icons.w3-agileitsicons ul li a i.fa{
+		width: 15px;
+		height: 15px;
+		line-height: 1.5em;
+	}
 }
 /*-- choose --*/
 .choose {
@@ -2807,7 +2827,8 @@ button.btn1.btn-1.btn-1b:hover {
 	} 
 	.team-grid {
 		float: none;
-		width: 100%;
+		width: 50%;
+		margin: auto;
 		margin-bottom: 1em;
 	}
 	.team-grid p {
