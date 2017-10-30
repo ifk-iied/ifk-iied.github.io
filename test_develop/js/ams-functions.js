@@ -32,8 +32,8 @@ function header_top() {
 					<li>
 						<a href="#">
 							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-                                   ` + email("iforkashmir", "gmail", "com") + `
-                              </a>
+							iforkashmir@gmail.com
+                              			</a>
 					</li>
 					<li>
 						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>(+1) 000 123 456789</li>
