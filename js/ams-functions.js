@@ -20,13 +20,15 @@ function header_top() {
 			<div class="w3layouts-details">
 				<ul>
 					<li>
-						<a href="#">
+						<a href="mailto:iforkashmir@gmail.com">
 							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 							iforkashmir@gmail.com
                         </a>
 					</li>
 					<li>
-						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>(+1) 000 123 456789</li>
+					   <a href="tell:+917006708293">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>(+91) 7006 708 293</li>
+						</a>
 				</ul>
 			</div>
 			<div class="clearfix"> </div>
