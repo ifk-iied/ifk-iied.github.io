@@ -1,5 +1,3 @@
-
-
 function header_top() {
 	document.write(`<!-- header-top -->
 	<div class="header-top">
@@ -39,32 +37,25 @@ function header_top() {
 }
 
 
-function navbar(){
+function navbar(page_id) {
+	if (page_id == "index")
+		var active_index = 'class="active"';
+	else if (page_id == "about")
+		var active_about = 'class="active"';
+	else if (page_id == "gallery")
+		var active_gallery = 'class="active"';
+	else if (page_id == "contact")
+		var active_contact = 'class="active"';
+	else if (page_id == "register")
+		var active_register = 'class="active"';
+
 	document.write(`
 	<li class="home-icon"> <a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
-    <li> <a href="index.html" class="active">Home</a></li>
-    <li> <a href="about.html">About</a></li>
-    <li> <a href="gallery.html">Gallery</a></li>
-<!-- 
-	<li> <a href="#" class="dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages
-	<span class="caret"></span></a>
-	<ul class="dropdown-menu">
-		<li> <a class="hvr-bounce-to-bottom" href="#">Page 1</a> </li>
-		<li class="dropdown-submenu">
-			<a href="#" class="dropdown-toggle" data-toggle="dropdown-submenu" role="button" aria-haspopup="true" aria-expanded="false">Page 2
-				<span class="caret"></span>
-			</a>
-			<ul class="dropdown-menu">
-				<li> <a tabindex="-1" href="#">Sub Page 1</a> </li>
-				<li> <a href="#">Sub Page 2</a> </li>
-				<li> <a href="#">Sub Page 3</a> </li>
-			</ul>
-		</li>
-	</ul> 
-    </li>
--->
-	<li> <a href="contact.html">Contact</a></li>
-	<li><a href="register.html">Register</a></li>
+	<li> <a href="index.html"` + active_index + `>Home</a></li>
+    <li> <a href="about.html"` + active_about + `>About</a></li>
+    <li> <a href="gallery.html"` + active_gallery + `>Gallery</a></li>
+	<li> <a href="contact.html"` + active_contact + `>Contact</a></li>
+	<li><a href="register.html"` + active_register + `>Register</a></li>
 	`)
 }
 
@@ -89,9 +80,9 @@ function footer() {
 					</div>
 
 					<div class="copyright">
-						<p> &copy; ` + 
-						new Date().getFullYear()
-						 + ` IFK. All Rights Reserved. | Designed by <a href="https://www.alphamstudios.com" target="_blank">Alpha Magnus Studios</a>
+						<p> &copy; ` +
+		new Date().getFullYear() +
+		` IFK. All Rights Reserved. | Designed by <a href="https://www.alphamstudios.com" target="_blank">Alpha Magnus Studios</a>
 					</p>
 					</div>
 				</div>
