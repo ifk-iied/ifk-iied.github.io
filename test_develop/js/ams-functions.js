@@ -23,7 +23,7 @@ function header_top() {
 						<a href="#">
 							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
 							iforkashmir@gmail.com
-                              			</a>
+                        </a>
 					</li>
 					<li>
 						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>(+1) 000 123 456789</li>
@@ -38,24 +38,13 @@ function header_top() {
 
 
 function navbar(page_id) {
-	if (page_id == "index")
-		var active_index = 'class="active"';
-	else if (page_id == "about")
-		var active_about = 'class="active"';
-	else if (page_id == "gallery")
-		var active_gallery = 'class="active"';
-	else if (page_id == "contact")
-		var active_contact = 'class="active"';
-	else if (page_id == "register")
-		var active_register = 'class="active"';
-
 	document.write(`
 	<li class="home-icon"> <a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
-	<li> <a href="index.html"` + active_index + `>Home</a></li>
-    <li> <a href="about.html"` + active_about + `>About</a></li>
-    <li> <a href="gallery.html"` + active_gallery + `>Gallery</a></li>
-	<li> <a href="contact.html"` + active_contact + `>Contact</a></li>
-	<li><a href="register.html"` + active_register + `>Register</a></li>
+	<li> <a href="index.html"` + ((page_id == "index") ? 'class="active"' : '') + `>Home</a></li>
+    <li> <a href="about.html"` + ((page_id == "about") ? 'class="active"' : '') + `>About</a></li>
+    <li> <a href="gallery.html"` + ((page_id == "gallery") ? 'class="active"' : '') + `>Gallery</a></li>
+	<li> <a href="contact.html"` + ((page_id == "contact") ? 'class="active"' : '') + `>Contact</a></li>
+	<li><a href="register.html"` + ((page_id == "register") ? 'class="active"' : '') + `>Register</a></li>
 	`)
 }
 
