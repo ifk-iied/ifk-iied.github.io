@@ -43,10 +43,11 @@ function navbar(page_id) {
 	document.write(`
 	<li class="home-icon"> <a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
 	<li> <a href="index.html"` + ((page_id == "index") ? 'class="active"' : '') + `>Home</a></li>
-    <li> <a href="about.html"` + ((page_id == "about") ? 'class="active"' : '') + `>About</a></li>
-    <li> <a href="gallery.html"` + ((page_id == "gallery") ? 'class="active"' : '') + `>Gallery</a></li>
-	<li> <a href="contact.html"` + ((page_id == "contact") ? 'class="active"' : '') + `>Contact</a></li>
+	<li> <a href="gallery.html"` + ((page_id == "gallery") ? 'class="active"' : '') + `>Gallery</a></li>
+	<li> <a href="about.html"` + ((page_id == "about") ? 'class="active"' : '') + `>About</a></li>
 	<li><a href="register.html"` + ((page_id == "register") ? 'class="active"' : '') + `>Register</a></li>
+	<li><a href="message.html"` + ((page_id == "message") ? 'class="active"' : '') + `>Message</a></li>	
+	<li> <a href="contact.html"` + ((page_id == "contact") ? 'class="active"' : '') + `>Contact</a></li>
 	`)
 }
 

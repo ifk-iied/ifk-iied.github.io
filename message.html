@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-	<title>IFK</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About | Innovation Forum of Kashmir</title>
 	<script type="application/x-javascript">
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -25,8 +25,7 @@
 	<link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
 	<!-- //fonts -->
 	<!-- js -->
-	<script src="js/jquery-1.11.1.min.js">
-	</script>
+	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function ($) {
@@ -40,6 +39,9 @@
 	</script>
 	<script src="js/menu_jquery.js"></script>
 	<!-- pop-up -->
+	<!-- Contact_encoded -->
+	<script src="js/encode_contact.js"></script>
+	<!-- //Contact_encoded -->
 
 	<script src="js/ams-functions.js"></script>
 	<!-- //js -->
@@ -60,9 +62,9 @@
 							<br>
 							<a href="http://nitsri.ac.in" target="_blank">
 								<small>National Institute of Technology, Srinagar</small>
-							</a>
+							
 							<span> </span>
-						
+						</a>
 					</h1>
 				</div>
 
@@ -78,7 +80,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<script>
-								navbar();
+								navbar("message");
 							</script>
 						</ul>
 						<div class="clearfix"> </div>
@@ -89,76 +91,62 @@
 		<!-- //container -->
 	</div>
 	<!-- //header -->
-	<!-- blog -->
-	<div class="blog">
-		<!-- container -->
-		<div class="container">
-			<div class="col-md-12 blog-top-left-grid">
-				<div class="left-blog left-single">
-					<div class="blog-left">
-						<div class="single-left-left">
-							<img src="images/2.jpg" alt="" />
-						</div>
-						<div class="blog-left-bottom">
-							<P>
-							</P>
-						</div>
-						<div class="blog-left-bottom left-bottom">
-							<P>
-							</P>
-						</div>
-						<div class="blog-left-bottom left-bottom">
-							<P>
-							</P>
-						</div>
+	<!-- about -->
+	<div class="about">
+		<div class="aboutw3-agileinfo">
+			<!-- container -->
+			<div class="container">
+				<h2 class="agileits-title">Message</h2>
+			</div>
+			<!-- //container -->
+		</div>
+		<!-- about-bottom -->
+		<div class="about-bottom">
+			<!-- container -->
+			<div class="container">
+				<div class="about-agileinfo">
+					<div class="col-md-6 about-w3grid">
+						<img src="images/Team/tafheems.jpg" onerror=this.src='images/default_img.jpg' ; alt="Prof Saad" />
 					</div>
-					<div class="w3response wthree">
-						<h3>Content</h3>
-						<div class="media w3response-info">
-
-							<div class="clearfix"> </div>
-						</div>
+					<div class="col-md-6 about-w3grid">
+						<h5>Prof Saad</h5>
+						<p>The forum will bring together innovators, entrepreneurs and inventors to discuss the latest trends in innovation, design,
+							creativity, R&D and new product development. You can expect a tremendous agenda, experienced speakers, key messages,
+							global players and intense networking. </p>
 					</div>
-					<div class="agileits-opinion" style="display:none;">
-						<h3>Leave your Response</h3>
-						<form action="#" method="post">
-							<input type="text" placeholder="Name" required="">
-							<input type="text" placeholder="Email" required="">
-							<textarea placeholder="Message" required=""></textarea>
-							<input type="submit" value="SEND">
-						</form>
-					</div>
+					<div class="clearfix"> </div>
 				</div>
 			</div>
-
+			<!-- container -->
 		</div>
-		<!-- //blog -->
-		<!-- footer -->
-		<script>
-			footer()
-		</script>
-		<!-- //footer -->
-		<!-- smooth-scrolling-of-move-up -->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function () {
-				/*
-				var defaults = {
-					containerID: 'toTop', // fading element id
-					containerHoverID: 'toTopHover', // fading element hover id
-					scrollSpeed: 1200,
-					easingType: 'linear' 
-				};
-				*/
+	</div>
 
-				$().UItoTop({
-					easingType: 'easeOutQuart'
-				});
+	<!-- footer -->
+	<script>
+		footer()
+	</script>
+	<!-- //footer -->
+	<!-- smooth-scrolling-of-move-up -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
 
+			$().UItoTop({
+				easingType: 'easeOutQuart'
 			});
-		</script>
-		<!-- //smooth-scrolling-of-move-up -->
+
+		});
+	</script>
+	<!-- //smooth-scrolling-of-move-up -->
 </body>
 
 </html>
